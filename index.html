@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Fin world</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="./source/world.png" >
+</head>
+
+<body class="landing">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="#">Fin world</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <a href="#menu" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a>
+                            <ul>
+                                <!--<li><a href="diaries.html">Diaries</a></li>-->
+                                <li><a href="#footer">About Me</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>Fin world</h2>
+                <p>An interior monologue<br />from a programmer</p>
+                <!--<ul class="actions">
+                    <li><a href="diaries.html" class="button special">Listen</a></li>
+                </ul>-->
+            </div>
+            <a href="#one" class="more scrolly">Learn More</a>
+        </section>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2 special">
+            <div class="inner">
+                <header class="major">
+                    <h2>I love being a programmer</h2>
+                    <p>Coding life</p>
+                </header>
+                <ul class="icons major">
+                    <li><span class="icon fa-coffee major style1"><span class="label">Coffee</span></span>
+                    </li>
+                    <li><span class="icon fa-music major style2"><span class="label">Music</span></span>
+                    </li>
+                    <li><span class="icon fa-laptop major style3"><span class="label">Coding</span></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="wrapper alt style2">
+            <section class="spotlight">
+                <div class="image"><img src="source/latte.jpg" alt="" /></div>
+                <div class="content">
+                    <h2>First time in my life<br /> finished a html page</h2>
+                    <p>I love code, there is a world inside my head. One day, everyone will see it.</p>
+                </div>
+            </section>
+            <section class="spotlight">
+                <div class="image"><img src="source/cat.jpg" alt="" /></div>
+                <div class="content">
+                    <h2>Coffee and Cat</h2>
+                    <p>Nothing will come true if I haven't met my wife.</p>
+                </div>
+            </section>
+            <section class="spotlight">
+                <div class="image"><img src="source/fall.jpg" alt="" /></div>
+                <div class="content">
+                    <h2>My home town<br /> Hunan</h2>
+                    <p>Sometime I miss the old days, the old us.</p>
+                </div>
+            </section>
+        </section>
+
+        <!-- Three -->
+        <section id="three" class="wrapper style2 special">
+            <div class="inner">
+                <header class="major">
+                    <h2>About more</h2>
+                    <p>I love programming my own game for playing, and right now I am working as a software developer in China, feel free to contact me if you have any question.</p>
+                </header>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section id="cta" class="wrapper style4">
+            <div class="inner">
+                <p>My name is <strong style="color:wheat;">Devin Liu</strong>, I am working on some fun stuff which include <strong style="color:red;">novel, tool, game</strong>. Check out my github to see more.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a target="_blank" href="https://www.linkedin.com/in/devin-liu-538094259/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a target="_blank" href="https://twitter.com/DevinLiu28" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/devinliu28" class="icon fa-instagram"><span class="label">Facebook</span></a></li>
+                <li><a target="_blank" href="https://github.com/DevinLiu28" class="icon fa-github"><span class="label">Github</span></a></li>
+                <li><a target="_blank" href="mailto:devinliu28@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy;Devin Liu</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="dist/home.bundle.js" charset="utf-8"></script>
+    <script>
+	    if ('serviceWorker' in navigator) {
+		    window.addEventListener('load', function() {
+			    navigator.serviceWorker.register('./sw.js');
+		    });
+	    }
+    </script>
+
+</body>
+
+</html>
